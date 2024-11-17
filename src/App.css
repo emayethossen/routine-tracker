@@ -1,0 +1,52 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.month-selector {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.routine-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.routine-table th,
+.routine-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.routine-table th {
+  background-color: #f4f4f9;
+}
+
+.status-cell {
+  cursor: pointer;
+}
+
+.status-cell input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.status-cell span {
+  display: block;
+  padding: 5px;
+}
+
+.status-cell:hover {
+  opacity: 0.8;
+}
